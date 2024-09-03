@@ -31,8 +31,8 @@
         @foreach($users as $user)
             <div class="result-box">
                 <h3>{{ $user->name }}</h3>
-                <p>{{ $user->designation->name }}</p>
-                <p>{{ $user->department->name }}</p>
+                <p>{{$user->designation->name}}</p>
+                <p>{{$user->department->name}}</p>
             </div>
         @endforeach
     @else
